@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+body{
+    background-image: url("/images/backcover.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+    background-position: right bottom;
+
+}
+.container{
+    width: 71rem;
+    margin: 0 auto;
+}
+.container nav{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items{
+    display: flex;
+    gap: 40px;
+}
+
+.signin-btn{
+    padding: 3px 10px;
+    border: none;
+    
+    background: linear-gradient(to right, #965cf2, #ff8adc);
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+
+}
+
+
+
+.intro-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-section{
+    width: 30%;
+    align-self: center;
+}
+.left-section h1{
+    color: purple;
+    font-size: 60px;
+    padding: 10px 0;
+}
+
+
+.learn-more-btn{
+    padding: 20px 70px;
+    background: linear-gradient(to right, #965cf2, #ff8adc);
+    margin-top: 40px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 40px;
+}
+.imgs-div{
+    width: 60%;
+    position: relative;
+}
+.intro{
+    width: 550px;
+}
+
+.vector-img{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.vector-dot{
+    position: absolute;
+    bottom: 85px;
+    left: 60px;
+}
+
+
